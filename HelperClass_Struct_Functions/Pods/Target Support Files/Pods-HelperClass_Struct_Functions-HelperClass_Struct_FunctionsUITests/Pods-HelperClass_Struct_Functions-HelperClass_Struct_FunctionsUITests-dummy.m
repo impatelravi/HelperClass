@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_HelperClass_Struct_Functions_HelperClass_Struct_FunctionsUITests : NSObject
+@end
+@implementation PodsDummy_Pods_HelperClass_Struct_Functions_HelperClass_Struct_FunctionsUITests
+@end

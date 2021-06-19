@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'HelperClass_Struct_Functions' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for HelperClass_Struct_Functions
+
+  pod 'BRYXBanner'
+
+  target 'HelperClass_Struct_FunctionsTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'HelperClass_Struct_FunctionsUITests' do
+    # Pods for testing
+  end
+
+end

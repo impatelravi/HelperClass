@@ -1,0 +1,6 @@
+framework module Pods_HelperClass_Struct_Functions_HelperClass_Struct_FunctionsUITests {
+  umbrella header "Pods-HelperClass_Struct_Functions-HelperClass_Struct_FunctionsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

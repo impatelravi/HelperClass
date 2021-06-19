@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Testimonials View Controller-->
+        <scene sceneID="h64-fh-rbS">
+            <objects>
+                <viewController storyboardIdentifier="TestimonialsViewController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="SkE-sf-KDD" customClass="TestimonialsViewController" customModule="Vidyanjali" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6OL-TC-EFe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ClG-Li-Ih4">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GmC-9j-FC1">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="GmC-9j-FC1" firstAttribute="top" secondItem="ClG-Li-Ih4" secondAttribute="top" id="7sZ-z3-XkM"/>
+                                    <constraint firstAttribute="trailing" secondItem="GmC-9j-FC1" secondAttribute="trailing" id="eJE-VN-iHl"/>
+                                    <constraint firstItem="GmC-9j-FC1" firstAttribute="leading" secondItem="ClG-Li-Ih4" secondAttribute="leading" id="oS8-E8-3Uo"/>
+                                    <constraint firstAttribute="bottom" secondItem="GmC-9j-FC1" secondAttribute="bottom" id="oyu-Km-7wa"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="y5L-Y9-cOW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ClG-Li-Ih4" firstAttribute="leading" secondItem="y5L-Y9-cOW" secondAttribute="leading" identifier="changeConstraint" id="2bX-L8-5Aa"/>
+                            <constraint firstItem="ClG-Li-Ih4" firstAttribute="top" secondItem="y5L-Y9-cOW" secondAttribute="top" id="MZD-B0-FGa"/>
+                            <constraint firstItem="y5L-Y9-cOW" firstAttribute="bottom" secondItem="ClG-Li-Ih4" secondAttribute="bottom" id="c5a-hK-ahK"/>
+                            <constraint firstItem="y5L-Y9-cOW" firstAttribute="trailing" secondItem="ClG-Li-Ih4" secondAttribute="trailing" identifier="changeConstraint" id="gyx-4H-qy8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tblView" destination="GmC-9j-FC1" id="Hsx-ho-19b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o08-x4-KxS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-159" y="-194"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
